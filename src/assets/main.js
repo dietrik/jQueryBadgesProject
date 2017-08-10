@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  jQuery.ajax({
+  $.ajax({
     url: 'https://www.codeschool.com/users/bulwark.json',
     dataType: 'jsonp',
     success: function(response){
